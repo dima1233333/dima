@@ -1,1 +1,16 @@
+namespace c1
+{
+    class Classc1
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Введите радиус R: ");
+            double R = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите высоту h: ");
+            double h = double.Parse(Console.ReadLine());
+            Console.WriteLine("Обьем цилиндра = {0}", Math.PI * R * R * h);
+            Console.ReadLine();
 
+        }
+    }
+}
